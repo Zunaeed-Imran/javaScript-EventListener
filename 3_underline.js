@@ -8,4 +8,5 @@ document.querySelector("#myButton").onclick = function(){
 
     const p = document.querySelectorAll(".para");
     p[1].innerText = "Wooo oo";                        // this will change 2nd text
+    p.forEach(element => element.innerText = "Woo");   // this foreach  will change all class paragraph
 }
