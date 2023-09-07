@@ -1,4 +1,9 @@
 document.querySelector("#but").onclick = function(){
-    var h1 = document.querySelector("#h");
-    h1. innerText = "Good by";
+
+    const h = document.querySelector("#h");
+    const under = document.createElement("u");
+    under.innerText = h;
+    h.innerText = "";
+    h.append(under);  
+
 }
